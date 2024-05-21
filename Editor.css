@@ -1,0 +1,109 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .full-background, .half-background 
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .full-background 
+  {
+    width: 100%;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/eWzNZYHYvSUYqBQ7mKyR4i.gif');
+    background-size: cover;
+  }
+  
+  .half-background 
+  {
+    width: 50%;
+    background-image: url('https://www.schemecolor.com/wallpaper?i=48789&desktop');
+    background-size: contain;
+  }
+
+  .top-background
+  {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url('https://st4.depositphotos.com/6504442/38405/v/450/depositphotos_384052258-stock-illustration-light-blue-vector-backdrop-dots.jpg');
+    left: 0;
+    height: 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    z-index: 1;
+  }
+
+  .top-icon {
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    width: 75px;
+    height: 75px;
+    background-image: url('https://forums.terraria.org/index.php?attachments/icon-png.280655/');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 2;
+    border-radius: 50%;
+    animation: spin 5s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .top-pfp
+  {
+    position: fixed;
+    top: 2%;
+    width: 67px;
+    height: 67px;
+    background-image: url('https://i.pinimg.com/474x/5d/cf/02/5dcf02265a260bb0902c1ec504d1743b.jpg');
+    left: 92%;
+    background-size: contain;
+    z-index: 2;
+    border-radius: 50%;
+  }
+
+
+.format {
+    padding-top: 0.05%;
+    padding-left: 7.5%;
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    white-space: nowrap;
+    z-index: 2;
+    position: fixed;
+
+}
+
+.mformat{
+    padding-left: 5%;
+    z-index: -1;
+}
+
+.name{
+    font-family: "Kanit", sans-serif;
+    font-size: 70%;
+    z-index: 2;
+    top: 10.3%;
+    left: 90.5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:fixed;
+
+
+}
